@@ -1,7 +1,7 @@
 # header-only library
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO Quantumyilmaz/SKSE-MCP
+    REPO QTR-Modding/SKSE-MCP
     REF 82bc976dc2e2070563e8abe491ac749d2a3f3030
     SHA512 6e6054a98ba8d7d4d127c1211743574dd44b6296fd4990c4836362dca721d4521a2c2d48a9e48cac30907f23d5912bcf4d81d25fd27017e8952557de6d508ddb
     HEAD_REF main

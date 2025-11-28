@@ -19,4 +19,4 @@ Put `skse-mcp`in your `dependencies`.
 
 ### Legacy versions
 #### V2
-Latest commit state: bae2535145a17af4a4222348d5a6e2e92295c4cd
+Latest commit state (Nov 11, 2025): bae2535145a17af4a4222348d5a6e2e92295c4cd

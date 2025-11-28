@@ -15,3 +15,8 @@ Users need to have `portfile.cmake` and `vcpkg.json` files same as in this repo 
 ##### vcpkg.json (in project directory and not in cmake/ports)
 
 Put `skse-mcp`in your `dependencies`.
+
+
+### Legacy versions
+#### V2
+Latest commit state: bae2535145a17af4a4222348d5a6e2e92295c4cd

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 
 project(
 	SKSE-MCP
-	VERSION 1.0.0
+	VERSION 3.3.1
 	LANGUAGES CXX
 )
 

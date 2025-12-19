@@ -1,8 +1,7 @@
-
 {
   "name": "skse-mcp",
-  "version-string": "1.0.0",
-  "homepage": "https://github.com/Quantumyilmaz/SKSE-MCP",
+  "version-string": "3.3.1",
+  "homepage": "https://github.com/QTR-Modding/SKSE-MCP",
   "license": "MIT",
   "dependencies": []
 }

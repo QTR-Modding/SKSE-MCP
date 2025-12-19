@@ -5202,9 +5202,9 @@ namespace ImGuiMCP {
     }
 
     inline bool ColorEdit3(const char* label, float col[3], ImGuiColorEditFlags flags = 0) {
-        using func_t = bool (*)(const char*, float, ImGuiColorEditFlags);
+        using func_t = bool (*)(const char*, float[3], ImGuiColorEditFlags);
         func_t func = reinterpret_cast<func_t>(GetProcAddress(menuFramework, "igColorEdit3"));
-        return func(label, col[3], flags);
+        return func(label, col, flags);
     }
 
     inline bool ColorEdit4(const char* label, float col[4], ImGuiColorEditFlags flags = 0) {

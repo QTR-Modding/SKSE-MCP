@@ -142,7 +142,10 @@ namespace SKSEMenuFramework {
     }
 
     inline void AddSectionItem(std::string menu, Model::RenderFunction rendererFunction) {
-        static auto func = Model::Internal::GetFunction<Model::AddSectionItemFunction>("AddSectionItem");
+        static Model::AddSectionItemFunction func = nullptr;
+        if (!func) {
+            func = Model::Internal::GetFunction<Model::AddSectionItemFunction>("AddSectionItem");
+        }
         if (func) {
             return func((Model::Internal::key + "/" + menu).c_str(), rendererFunction);
         }
